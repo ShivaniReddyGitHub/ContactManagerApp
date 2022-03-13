@@ -1,0 +1,62 @@
+CONTACT MANAGER APPLICATION
+
+
+
+
+
+CONTENTS
+1. INSTALLATION
+2. SETUP
+3. HOW TO RUN THE APPLICATION
+* Sign-Up Page
+* Login Page
+* Add Contacts Page
+
+
+
+
+
+1. INSTALLATION
+
+* Install Xampp Server on the machine.
+* Install an editor, most preferable Sublime Text.
+* Start the Apache Server on the Xampp Application.
+* Start the MySQL Database on the Xampp Application. 
+
+2. SETUP
+
+	
+* Clone the project from the Git-hub Repository onto the Machine. https://github.com/ShivaniReddyGitHub/ContactManagerApp 
+* Open  http://localhost/phpmyadmin/index.php?route=/server/export page on the browser.
+* Click on the Import tab display on the taskbar of phpMyAdmin page
+* Import the C:\xampp\htdocs\Contact Manager App\database.sql 
+* Save the changes made.
+
+
+
+
+3. HOW TO RUN THE APPLICATION 
+
+
+1. Sign-Up Page
+
+* Open the browser
+* Run http://localhost/login/signup.php 
+* This will open a Sign-Up page on the browser.
+* Enter your username and password.
+* Click on the Sign-Up button.
+
+2. Login Page
+
+* Run http://localhost/login/Login.php
+* You will get re-directed to the Login Page
+* Enter your credentials.
+* If you have entered correct details, you will be logged in.
+
+   
+3. Add Contacts Page
+
+* After Successfully logging in, the user will be re-directed to the add contact page.
+* Now the User is required to enter his Name, Phone Number & Email.
+* When the user clicks on the save button after entering the details, the user will be able to see the table which consists of contact details he or she has entered.
+* Finally, the user can logout of the application, where the user is reverted to the Login page.
